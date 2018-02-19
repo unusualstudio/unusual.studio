@@ -58,7 +58,16 @@ main {
   justify-content: space-between;
 }
 .id {
+  color: white;
   opacity: 0.2;
+  text-decoration: none;
+}
+.id:hover {
+  opacity: 1;
+}
+:target .id {
+  opacity: 1;
+  text-decoration: underline;
 }
 .details {
   display: flex;
