@@ -88,6 +88,7 @@ main {
 }
 .name {
   font-size: 2em;
+  font-weight: bold;
 }
 .subname {
   font-size: 1.5em;
